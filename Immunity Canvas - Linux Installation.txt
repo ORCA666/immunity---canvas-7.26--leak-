@@ -1,0 +1,28 @@
+Pre Requests for installing Canvas: (tested setup) Ubuntu 18.04 (updated but not upgraded)
+Copy Canvas.zip to Linux PC
+Unzip it to working folder.
+
+Run command as root:
+sudo apt-get update
+sudo apt-get -y install python-pip
+sudo apt-get -y install gtk2.0
+sudo apt-get -y install python-glade2
+sudo apt-get -y install python-nacl python-bcrypt
+sudo pip install pycrypto
+sudo pip install pyasn1
+sudo pip install diskcache==4.1.0
+sudo pip install asn1tools
+sudo apt-get install -y python-pycurl
+sudo apt-get install -y libcanberra-gtk-module
+sudo pip install pycurl
+sudo pip install requests
+sudo pip install pygame
+
+Go to CANVAS folder, then run:
+sudo bash CANVAS/installer/linux_installer.sh
+
+Setup is finished
+Executing: 
+sudo python CANVAS/runcanvas.py
+
+You are breathtaking!
