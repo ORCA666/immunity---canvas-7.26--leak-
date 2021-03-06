@@ -1,2 +1,3 @@
-1-CANVAS_Dependency_Installer
-2-python3
+1- CANVAS_Dependency_Installer:: https://www.immunityinc.com/canvas-dependencies.shtml
+2- python3::   python.org/downloads/release/python-380/
+3- modify canvas.bat :: https://www.freebuf.com/sectool/265119
